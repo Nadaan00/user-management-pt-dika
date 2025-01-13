@@ -8,7 +8,6 @@
   </head>
   <body>
     @include('auth.layouts')
-    @include('auth.sidebar')
  
     <div class="container py-5">
         @yield('body')
